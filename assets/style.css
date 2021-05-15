@@ -3,16 +3,27 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 h1 {
     color: blueviolet;
     font-family: sans-serif;
 }
 
+header {
+    margin-left: 160px;
+}
+
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 150px;
+    padding-top: 50%;
+    padding-bottom: 50%;
     position: fixed;
-    z-index: 1;
+    top: 0;
+    left: 0;
     background-color: black;
     margin-top: 0;
 }
@@ -20,4 +31,10 @@ h1 {
 .sidenav a {
     display: block;
     color: cyan;
+    padding-top: 50px;
+    padding-bottom: ;
+    padding-right: ;
+    padding-left: ;
+    text-decoration: none;
+    
 }
