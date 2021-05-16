@@ -12,13 +12,18 @@ main {
     font-size: 20px;
 }
 
-.header-text {
+#cover-text {
     color: #fff;
     font-family: cursive;
     font-size: 60px;
     z-index: 2;
     position: absolute;
     top: 20%;
+    left: 30%;
+}
+
+#cover-text > p {
+    font-size: 30px;
 }
 
 .image-cover {
@@ -27,6 +32,7 @@ main {
     width: 200px;
     background-image: url("./images/backgroundimage.jpg");
     filter: blur(6px);
+
     background-color: rgb(29, 32, 75);
 }
 
