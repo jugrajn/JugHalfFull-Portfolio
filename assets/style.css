@@ -7,22 +7,27 @@ html {
     height: 100%;
 }
 
-h1 {
-    color: #fff;
-    font-family: cursive;
-    font-size: 60px;
-}
-
-header {
-    margin-left: 150px;
-    padding: 20% 40% 80% 40%;
-    width: 200px;
-    background-color: rgb(29, 32, 75);
-}
-
 main {
     margin-left: 150px;
     font-size: 20px;
+}
+
+.header-text {
+    color: #fff;
+    font-family: cursive;
+    font-size: 60px;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+}
+
+.image-cover {
+    margin-left: 150px;
+    padding: 20% 40% 80% 40%;
+    width: 200px;
+    background-image: url("./images/backgroundimage.jpg");
+    filter: blur(6px);
+    background-color: rgb(29, 32, 75);
 }
 
 .sidenav {
