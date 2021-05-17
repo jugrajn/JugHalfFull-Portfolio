@@ -28,11 +28,10 @@ main {
 
 .image-cover {
     margin-left: 150px;
-    padding: 20% 40% 80% 40%;
-    width: 200px;
+    padding: 20% 40% 50% 40%;
+    width: 100%;
     background-image: url("./images/backgroundimage.jpg");
     filter: blur(6px);
-
     background-color: rgb(29, 32, 75);
 }
 
@@ -60,6 +59,22 @@ main {
 
 .sidenav a:hover {
     color: coral;
-    transition: 1s;
+    transition: 0.5s;
     font-size: 35px;
+}
+
+#about {
+    color: rgb(49, 48, 48);
+    background-color: #fff;
+    padding: 100px;
+}
+#about > h1 {
+    color: coral;
+}
+
+#work {
+    background-color: rgb(243, 192, 192);
+    color: #fff;
+    padding: 50px;
+    height: 500px;
 }
