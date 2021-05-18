@@ -6,6 +6,7 @@
 main {
     margin-left: 150px;
     font-size: 20px;
+    max-height: 1400px;
 }
 
 img:hover {
@@ -116,7 +117,8 @@ img:hover {
     background-color: rgb(39, 38, 38);
     position: relative;
     padding: 20px;
-    bottom: 400px;
+    margin: 0;
+    bottom: 450px;
     left: 500px;
     border: 2px solid rgb(39, 38, 38);
     border-radius: 10px;
@@ -135,4 +137,21 @@ img:hover {
     font-size: 30px;
     font-weight: bold;
     transition: 0.5s;
+}
+
+#contact {
+    font-size: xx-large;
+    width: 100%;
+    position: relative;
+    background-color: rgb(33, 47, 59);
+    height: 150px;
+}
+
+#contact h3 {
+    position: absolute;
+    left: 330px;
+    bottom: 75px;
+    width: fit-content;
+    font-size: 40px;
+    color: #fff;
 }
