@@ -109,3 +109,30 @@ img:hover {
 .grid-image {
     box-shadow: 5px 5px 10px grey;
 }
+
+#resume {
+    font-size: xx-large;
+    color: coral;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    padding: 20px;
+    bottom: 400px;
+    left: 500px;
+    border: 2px solid rgb(39, 38, 38);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#resume div a {
+    font-size: 25px;
+    text-decoration: none;
+    color: royalblue;
+    transition: 2s;
+}
+
+#resume div a:hover {
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
