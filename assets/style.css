@@ -35,6 +35,14 @@ img:hover {
     background-color: rgb(29, 32, 75);
 }
 
+#avatar img {
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    left: 500px;
+    top: 350px;
+}
+
 .sidenav {
     display: flex;
     flex-direction: column;
@@ -150,8 +158,20 @@ img:hover {
 #contact h3 {
     position: absolute;
     left: 330px;
-    bottom: 75px;
+    bottom: 73px;
     width: fit-content;
     font-size: 40px;
     color: #fff;
+}
+
+#contact ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left: 600px;
+    bottom: 79px;
+    width: 700px;
+    color: turquoise;
 }
