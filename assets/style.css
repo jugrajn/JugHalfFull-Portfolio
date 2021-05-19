@@ -19,7 +19,7 @@ img:hover {
     font-family: cursive;
     font-size: 60px;
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 30%;
 }
 
@@ -36,11 +36,11 @@ img:hover {
 }
 
 #avatar img {
-    height: 200px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
     position: absolute;
-    left: 500px;
-    top: 350px;
+    left: 30%;
+    top: 10%;
 }
 
 .sidenav {
