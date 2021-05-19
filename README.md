@@ -22,4 +22,4 @@
 * https://jugrajn.github.io/JugHalfFull-Portfolio/ 
 
 ## Screenshot
- ![](assets\images\screenshotPortfolio.webm)
+ ![](assets\images\screenshotPortfolio.mp4)
