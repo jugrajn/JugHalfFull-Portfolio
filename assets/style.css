@@ -175,3 +175,12 @@ img:hover {
     width: 700px;
     color: turquoise;
 }
+
+#linked-in a, #git-link a {
+    text-decoration: none;
+    color:turquoise;
+}
+
+#linked-in a:hover, #git-link a:hover {
+    color: coral;
+}
