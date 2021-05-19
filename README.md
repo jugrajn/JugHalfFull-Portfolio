@@ -1,6 +1,6 @@
-## JugHalfFull-Portfolio
+# JugHalfFull-Portfolio
 
-# DESCRIPTION
+## DESCRIPTION
 
 * Got a navbar on the left shows links after you click, which will direct you to the proper section of the page
 
@@ -17,6 +17,6 @@
 * Contact section is my Footer
     - LinkedIn and Github are links
 
-# Link Deployed Appplication
+## Link Deployed Appplication
 
 * https://jugrajn.github.io/JugHalfFull-Portfolio/ 
