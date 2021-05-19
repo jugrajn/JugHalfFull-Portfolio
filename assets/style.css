@@ -151,7 +151,7 @@ img:hover {
     font-size: xx-large;
     width: 100%;
     position: relative;
-    background-color: rgb(33, 47, 59);
+    background-color: rgb(39, 38, 38);
     height: 150px;
 }
 
@@ -161,7 +161,7 @@ img:hover {
     bottom: 73px;
     width: fit-content;
     font-size: 40px;
-    color: #fff;
+    color: coral;
 }
 
 #contact ul {
