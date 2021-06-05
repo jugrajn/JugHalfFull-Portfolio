@@ -100,7 +100,7 @@ img:hover {
 #work-header {
     color: coral;
     position: relative;
-    bottom: 640px;
+    bottom: 500px;
     left: 640px;
     width: 170px;
 }
@@ -111,7 +111,7 @@ img:hover {
     grid-gap: 40px;
     width: 700px;
     position: relative;
-    bottom: 600px;
+    bottom: 450px;
     left: 200px;
 }
 
@@ -126,7 +126,7 @@ img:hover {
     position: relative;
     padding: 20px;
     margin: 0;
-    bottom: 450px;
+    bottom: 200px;
     left: 500px;
     border: 2px solid rgb(39, 38, 38);
     border-radius: 10px;
