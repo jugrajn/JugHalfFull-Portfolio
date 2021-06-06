@@ -27,6 +27,11 @@ img:hover {
     font-size: 30px;
 }
 
+#cover-text > h1 {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1em;
+}
+
 .image-cover {
     margin-left: 150px;
     padding: 20% 40% 35% 40%;
@@ -58,11 +63,11 @@ img:hover {
 
 .sidenav a {
     color: cyan;
+    font-family: 'Odibee Sans', cursive;
     font-size: xx-large;
     padding-left: 20px;
     text-decoration: none;
-    transition: 3s;
-
+    transition: 1s;
 }
 
 .sidenav a:hover {
@@ -80,6 +85,11 @@ img:hover {
 
 #about > h1 {
     color: coral;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#about  p {
+    font-family: 'Nunito', sans-serif;
 }
 
 #work {
@@ -98,6 +108,7 @@ img:hover {
 }
 
 #work-header {
+    font-family: 'Odibee Sans', cursive;
     color: coral;
     position: relative;
     bottom: 500px;
@@ -115,9 +126,14 @@ img:hover {
     left: 200px;
 }
 
+#work-grid-container h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
 .grid-image {
     box-shadow: 5px 5px 10px grey;
 }
+
 
 #resume {
     font-size: xx-large;
@@ -134,11 +150,16 @@ img:hover {
     box-shadow: 10px 10px 10px grey;
 }
 
+#resume  h2 {
+    font-family: 'Odibee Sans', cursive;
+}
+
 #resume div a {
     font-size: 25px;
     text-decoration: none;
-    color: royalblue;
+    color: cyan;
     transition: 2s;
+    font-family: 'Nunito', sans-serif;
 }
 
 #resume div a:hover {
@@ -162,6 +183,7 @@ img:hover {
     width: fit-content;
     font-size: 40px;
     color: coral;
+    font-family: 'Odibee Sans', cursive;
 }
 
 #contact ul {
@@ -171,9 +193,10 @@ img:hover {
     justify-content: space-between;
     position: absolute;
     left: 600px;
-    bottom: 79px;
+    bottom: 75px;
     width: 700px;
     color: turquoise;
+    font-family: 'Nunito', sans-serif;
 }
 
 #linked-in a, #git-link a {
