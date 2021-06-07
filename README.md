@@ -9,13 +9,24 @@
 * About me section added 
 
 * Projects - MY WORK Section
-    - I do not have any projects live right now its a grid of placeholder images, therefore not titles as well, which highlight with a mouse over
-    - because they are no live projects yet the placeholders are not links, they will not direct you anywhere else
+    - Day Planner
+    - Project 1: The Film Dimension
+    - Quiz Game
 
+    - Headers are links to repos
+    - Screenshots are links to deployed application
+    
 * Resume with a link to view on Google Drive provided
 
 * Contact section is my Footer
     - LinkedIn and Github are links
+
+## Technologies used in Projects
+* HTML
+* CSS
+* BOOTSTRAP & MATERIALIZE
+* JQUERY
+* JAVASCRIPT
 
 ## Link Deployed Appplication
 
