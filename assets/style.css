@@ -207,3 +207,9 @@ img:hover {
 #linked-in a:hover, #git-link a:hover {
     color: coral;
 }
+
+@media screen and (max-width: 408px) {
+    body {
+    width: 100%;
+    }
+}
