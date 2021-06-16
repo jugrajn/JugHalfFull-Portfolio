@@ -12,75 +12,73 @@
 
     <body>
 
-        <header>
-            <section class="image-cover"></section>
-            <div id ="avatar">
-                <img src="assets/images/memojiAvatar.png" alt="Animated picture of Man">
-            </div>
-        
-            <section id="cover-text">
+        <main class="container" id="mainWrap">
+            <div class="row justify-content-center">
+                            <!-- ---------SIDE NAV BAR------------ -->
+                <section class="sidenav col-s2">
+                    <a href="#about">About</a>
+                    <hr/>
+                    <a href="#work">Work</a>
+                    <hr/>
+                    <a href="#resume">Resume</a>
+                    <hr/>
+                    <a href="#contact">Contact</a>
+                </section>
+    
+                <section class="col-s6" id="cover-text">
+                    <div id ="avatar">
+                        <img src="assets/images/memojiAvatar.png" alt="Animated picture of Man">
+                    </div>
                     <h1>Jugraj</h1>
                     <p>Hi my name is Jug, new developer creating unique things.</p>
-            </section>
-        
-            <section class="sidenav">
-                <a href="#about">About</a>
-                <hr/>
-                <a href="#work">Work</a>
-                <hr/>
-                <a href="#resume">Resume</a>
-                <hr/>
-                <a href="#contact">Contact</a>
-            </section>
-
-        </header>
-
-        <main>
-
-            <section id="about">
-                <h1> Like to believe the Jug is always half full</h1>
-                <p>Born and raised in Vancouver, British Columbia. Currently living in Toronto. Ontario. Honing my skills in HTML and CSS. I thouroughly enjoy using these programming languages to design and make unique web applications and with my motto having the glass half full im always learning. I will be adding javascript to my repertoire to add some sophistication to my applications.</p> 
-            </section>
+                </section>
             
-            
-                <section id="work"></section>
-                <h1 id="work-header">Projects</h1>
-                <section id="work-grid-container">
-                    <!-- These images are placeholders to meet critera, no projects live yet -->
+
+
+                <section class="col-s6"  id="about">
+                    <h1> Like to believe the Jug is always half full</h1>
+                    <p>Born and raised in Vancouver, British Columbia. Currently living in Toronto. Ontario. Honing my skills in HTML and CSS. I thouroughly enjoy using these programming languages to design and make unique web applications and with my motto having the glass half full im always learning. I will be adding javascript to my repertoire to add some sophistication to my applications.</p> 
+                </section>
+                
+                
+                <section class="col-s6 row" id="work work-grid-container">
+                    <h1 id="work-header">Projects</h1>      
                     <div>
                         <a href="https://github.com/jugrajn/dayPlanner"><h4 style="color:cyan; text-align: center;">Day Planner</h4></a>
                         <a href="https://jugrajn.github.io/dayPlanner/">
                             <img src="./assets/images/screenshotDayPlanner.png" alt="HTML Image" width="300" height="200">
                         </a>
                     </div>
-
+        
                     <div>
                         <a href="https://github.com/andresaponte22/film-dimension"><h4 style="color:cyan; text-align: center;">The Film Dimension</h4></a>
                         <a href="https://andresaponte22.github.io/film-dimension/">
                             <img class="grid-image" src="./assets/images/Film Dimension.gif" alt="HTML Image" width="350" height="250">
                         </a>
                     </div>
-
+        
                     <div>
                         <a href="https://github.com/jugrajn/thequiz_game"><h4 style="color:cyan; text-align: center;">Quiz Game</h4></a>
                         <a href="https://jugrajn.github.io/thequiz_game/">
                             <img src="./assets/images/quizGameScreenshot.gif" alt="HTML Image" width="300" height="200">
                         </a>
                     </div>
-                    <!-- <div class=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png" alt="HTML Image" width="300" height="200"></div>
-                    <div class=""><img src="https://media.vlpt.us/images/joyact/post/24775b65-c4c8-499b-bbc8-174ac1764c84/0_Gix6981I6q3J_afW.jpg" alt="HTML Image" width="300" height="200"></div>
-                    <div class=""><img src="https://miro.medium.com/max/1600/1*Jl2VDHVzFBDdXggRprziUg.png" alt="HTML Image" width="300" height="200"></div>                 -->
                 </section>
-            
-            <section id="resume">
-                <div>
-                    <h2>Resume</h2>
-                    <a href="https://drive.google.com/drive/folders/1b9vqqrxsqFpSjmN6oIh4OGuV-ElwSoik?usp=sharing">Link-Google Drive</a>
-                </div>    
-            </section>
+                  
+                
+                <section class="col-s6" id="resume">
+                    <div>
+                        <h2>Resume</h2>
+                        <a href="https://drive.google.com/drive/folders/1b9vqqrxsqFpSjmN6oIh4OGuV-ElwSoik?usp=sharing">Link-Google Drive</a>
+                    </div>    
+                </section>
+    
+            </div>
+
         </main>
         <!-- No blur added in the footer by design -->
         <footer>
+
             <section id="contact">
                 <div> 
                     <h3>Contact</h3>
@@ -91,8 +89,8 @@
                         <li id="git-link"><a href="https://github.com/jugrajn">GitHub</a></li>
                     </ul>
                 </div>
-                <div></div>
             </section>
+
         </footer>
     </body>
 
